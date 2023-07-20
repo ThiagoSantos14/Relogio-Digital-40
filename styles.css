@@ -48,7 +48,7 @@ p {
 .container-horas {
     width: 20%;
     height: 50%;
-    background: black;
+    background: transparent;
     border-radius: 10%;
     backdrop-filter: blur(10px);
     box-shadow: 10px 10px 100px black;
@@ -65,7 +65,7 @@ p {
 .container-minutos {
     width: 20%;
     height: 50%;
-    background: black;
+    background: transparent;
     border-radius: 10%;
     backdrop-filter: blur(10px);
     box-shadow: 10px 10px 100px black;
@@ -82,7 +82,7 @@ p {
 .container-segundos {
     width: 20%;
     height: 50%;
-    background: black;
+    background: transparent;
     border-radius: 10%;
     backdrop-filter: blur(10px);
     box-shadow: 10px 10px 100px black;
