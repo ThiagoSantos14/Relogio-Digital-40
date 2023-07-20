@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+}
+
+body {
+    background: linear-gradient(to right bottom, #DEECFB, #BEDAF7, #7AB3EF, #368CE7, #1666BA);
+    height: 100vh;
+}
+
+span {
+    font-size: 25px;
+    color: white;
+}
+
+p {
+    font-size: 25px;
+    color: white;
+}
+
+.container-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 15%;
+}
+
+.container-escrita {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 0vh;
+}
+
+.horas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    height: 50vh;
+}
+
+.container-horas {
+    width: 20%;
+    height: 50%;
+    background: black;
+    border-radius: 10%;
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 10px 100px black;
+}
+
+.minutos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    height: 50vh;
+}
+
+.container-minutos {
+    width: 20%;
+    height: 50%;
+    background: black;
+    border-radius: 10%;
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 10px 100px black;
+}
+
+.segundos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    height: 50vh;
+}
+
+.container-segundos {
+    width: 20%;
+    height: 50%;
+    background: black;
+    border-radius: 10%;
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 10px 100px black;
+}
+
+@media (max-width: 480px) {
+    p {
+        font-size: 11px;
+    }
+
+    .horas {
+        font-size: 40px;
+    }
+
+    .minutos {
+        font-size: 40px;
+    }
+
+    .segundos {
+        font-size: 40px;
+    }
+}
+
+
+/*Feito por Thiago Santos*/
